@@ -1,0 +1,35 @@
+.result-container {
+  border: 1px solid #929292;
+  width: calc(80% + 6px);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.row-wrapper {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid #929292;
+}
+.row-wrapper:last-child {
+  border-bottom: none;
+}
+
+.row-wrapper:hover {
+  background-color: #eee;
+}
+
+.row-entity-name {
+  display: flex;
+  flex: 1;
+}
+.row-entity-percentage-change {
+  display: flex;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
